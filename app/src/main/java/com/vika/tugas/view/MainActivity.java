@@ -1,4 +1,4 @@
-package com.myaplication.view;
+package com.vika.tugas.view;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -17,14 +17,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.myaplication.database.DatabaseHelper;
-import com.myaplication.database.model.Note;
-import com.myaplication.utils.MyDividerItemDecoration;
-import com.myaplication.utils.RecyclerTouchListener;
-import com.vika.tugas.R;
-
 import java.util.ArrayList;
 import java.util.List;
+
+import com.vika.tugas.R;
+import com.vika.tugas.database.DatabaseHelper;
+import com.vika.tugas.database.model.Note;
+import com.vika.tugas.utils.MyDividerItemDecoration;
+import com.vika.tugas.utils.RecyclerTouchListener;
 
 public class MainActivity extends AppCompatActivity {
     private NotesAdapter mAdapter;
