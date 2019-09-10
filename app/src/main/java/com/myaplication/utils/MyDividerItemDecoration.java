@@ -1,4 +1,4 @@
-package com.vika.tugas.utils;
+package com.myaplication.utils;
 
 
 import android.content.Context;

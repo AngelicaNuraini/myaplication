@@ -1,4 +1,4 @@
-package com.vika.tugas.database.model;
+package com.myaplication.database.model;
 
 
 public class Note {
